@@ -6,6 +6,6 @@ while(actual <= 4000000){             //will only run fibonacci numbers up to 4 
   if(actual % 2 === 0){               //if it's even then...
     total += actual;                  //add the even fibonacci number to the sum of even fibonacci's
   }
-  actual += previous;                 //get the next fibonacci by adding the previous one to the current. Actualize the loop
+  actual += previous;                 //get the next fibonacci by adding the previous one to the current. Actualize the loop.
 }
 console.log(total);
